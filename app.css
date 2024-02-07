@@ -25,6 +25,9 @@ img{
   border:10px solid red;
 }
 
+.debug section{
+  border: 1px solid black;
+}
 /* LAYOUT */
 
 .row{
