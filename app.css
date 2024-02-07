@@ -35,20 +35,44 @@ img{
 .app{
   height: 100vh;
   width: 100%;
+  flex-direction: column;
+}
+
+main{
+  flex-grow: 1;
 }
 
 /* MENU */
+
+header{
+  width: 200px;
+}
+
+header.row{
+  flex-direction:column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px;
+}
 
 ul.menu, .menu li {
   list-style:armenian;
 }
 
-header .row{
-  flex-direction: column;
-}
+/* HEADER */
 
+
+ 
+
+/* 
 header{
   width: 200px;
+} */
+
+/* CONTAINER */
+
+.container{
+  flex-grow: 1;
 }
 
 /* FOOTER */
@@ -58,7 +82,7 @@ ul.foot-menu, .foot-menu li{
   display: inline-block;
 }
 
-footer .row{
+ footer .row{
   justify-content: space-between;
 }
 
@@ -66,6 +90,5 @@ footer{
   padding: 20px 10px;
   color: white;
   background-color: #131923;
-  position: relative;
   bottom: 0;
 }
