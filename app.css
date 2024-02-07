@@ -64,6 +64,18 @@ header.row{
   flex-grow: 1;
 }
 
+.container.row{
+  flex-direction: column;
+}
+
+.cards-section{
+  flex-grow: 1;
+}
+
+.text-section{
+  flex-grow: 4;
+}
+
 /* FOOTER */
 
 ul.foot-menu, .foot-menu li{
