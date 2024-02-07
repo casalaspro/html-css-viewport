@@ -43,6 +43,14 @@ ul.menu, .menu li {
   list-style:armenian;
 }
 
+header .row{
+  flex-direction: column;
+}
+
+header{
+  width: 200px;
+}
+
 /* FOOTER */
 
 ul.foot-menu, .foot-menu li{
