@@ -1,4 +1,4 @@
-* RESET */
+/* RESET */
 
 *{
   margin: 0;
@@ -12,8 +12,8 @@ a{
 }
 
 li, ul, menu{
-  list-style: none;
-}
+  /* list-style: none;*/
+} 
 
 img{
   width: 100%;
@@ -23,4 +23,41 @@ img{
 
 .debug .app{
   border:10px solid red;
+}
+
+/* LAYOUT */
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app{
+  height: 100vh;
+  width: 100%;
+}
+
+/* MENU */
+
+ul.menu, .menu li {
+  list-style:armenian;
+}
+
+/* FOOTER */
+
+ul.foot-menu, .foot-menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+footer .row{
+  justify-content: space-between;
+}
+
+footer{
+  padding: 20px 10px;
+  color: white;
+  background-color: #131923;
+  position: relative;
+  bottom: 0;
 }
