@@ -18,3 +18,9 @@ li, ul, menu{
 img{
   width: 100%;
 }
+
+/* DEBUG */
+
+.debug .app{
+  border:10px solid red;
+}
