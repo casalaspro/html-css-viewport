@@ -70,7 +70,11 @@ header.row{
 }
 
 header .menu{
-  flex-grow: 1;
+  /* flex-grow: 1; */
+}
+
+header .profile{
+  margin-top: auto;
 }
 
 /* CONTAINER */
