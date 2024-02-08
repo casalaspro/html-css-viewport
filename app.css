@@ -65,9 +65,12 @@ header{
 
 header.row{
   flex-direction:column;
-  justify-content: space-between;
   height: 100%;
   padding: 20px;
+}
+
+header .menu{
+  flex-grow: 1;
 }
 
 /* CONTAINER */
